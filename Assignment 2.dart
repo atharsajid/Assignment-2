@@ -76,6 +76,20 @@ Table of 7
   });
 
 
+(9).
+  
+  var score = [450, 470 , 380];
+  var a = score[0] / 500 * 100;
+  var b = score[1] / 500 * 100;
+  var c = score[2] / 500 * 100;
+  var percentage = [a , b , c];
+   
+ var result = {[score[0],a]: "Ali", [score[1],b]: "Ahmed", [score[2],c]: "Faraz"};
+  
+  result.forEach((key, val){
+   print ("$val $key");
+ }); 
+
 
 
 
