@@ -105,6 +105,23 @@ legal variables		illegal variable
   String b = a.replaceAll("Hyder", "Islam");
   print(b);
 
+(12).
+  var name = "Adil";
+  var month = "September";
+  var units = 360;
+  var per_unit = 12 ;
+  var due = 20 ;
+  var latefees = 150;
+  var bill_amount = units * per_unit;
+  var afterduedate = bill_amount + latefees;
+  
+  print(" Consumer name : $name \n Month : $month \n Units $units \n Last date : 20 Sep 2021 \n Amount : $bill_amount \n After Due Date : $afterduedate");
+  
+  
+
+
+
+
 (13).
   var day = 35 ;
   if(day<=15){
