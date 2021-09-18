@@ -91,10 +91,32 @@ Table of 7
  }); 
 
 
-
-
+(10).
+legal variables		illegal variable
+1. abc			Abc
+2. rayan_zaib		rayan zaib
+3. student1		1student
+4. name			@name
+5. list1		List
+	
  
+(11).
+ String a = "Hyderabad is the capital of Pakistan";
+  String b = a.replaceAll("Hyder", "Islam");
+  print(b);
 
+(13).
+  var day = 35 ;
+  if(day<=15){
+    print("first fifteenth days of th month");
+  }
+  else if(day>15 && day<=31){
+    print ("Last days of the month");
+  }
+  else{
+    print("out of month");
+  }
+  
 
 
 
