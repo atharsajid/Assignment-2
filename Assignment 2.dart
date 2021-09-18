@@ -76,6 +76,24 @@ Table of 7
   });
 
 
+(8).
+
+var password = "pass@123";
+print("Enter Your Password");
+
+var pass = stdin.readLineSync();
+// if(pass.isEmpty){
+//   print("Please Enter Your Password");
+// }
+if(pass==password){
+  print("Correct Password");
+
+}
+else{
+  print("Wrong Password");
+}
+
+
 (9).
   
   var score = [450, 470 , 380];
