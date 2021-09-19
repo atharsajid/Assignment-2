@@ -38,6 +38,14 @@ OPERATORS:
   var tickets= ticket*5;
   print (tickets);
 	Output will be 3000
+		
+(4).
+  List<dynamic> a = [1,2,3,4,5,6,7];
+  List<dynamic> b = [3,5,6,7,9,10];
+  
+  a.removeWhere((e)=> b.contains(e) );
+  
+  print(a);
 
 (5).
 ??  ?;
